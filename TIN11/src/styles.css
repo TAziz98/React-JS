@@ -1,0 +1,25 @@
+#footer {
+  margin-top: 200px;
+  font-size: 15px;
+}
+body {
+  font-family: sans-serif;
+}
+#validationField {
+  margin-top: -250px;
+  margin-left: 200px;
+}
+input.inp1 {
+  margin-left: 20px;
+}
+input.inp2 {
+  margin-left: 58px;
+}
+input.inp3 {
+  margin-left: 41px;
+}
+label.error {
+  margin-left: 85px;
+  font-size: 13px;
+  color: red;
+}
