@@ -1,0 +1,34 @@
+.price-label{
+    position: absolute;
+    margin-top:-17px;
+    margin-left:56em;
+    
+    
+  }
+  .navbar-brand{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Cinzel', serif;
+    color:black!important;
+    margin-left:-7px;
+    font-weight: 600;
+    font-weight: lighter;
+    
+  }
+  .btn{
+    position: absolute;
+    margin-left:65em;
+    
+    }
+
+    .dropdown-toggle{
+      position: absolute;
+      margin-top:-1.5em;
+      margin-left:61em;
+    }
+    .dropdown-menu{
+      position: absolute;
+      margin-top:-.5em;
+      margin-left:61em;
+    }
