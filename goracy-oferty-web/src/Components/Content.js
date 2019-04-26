@@ -4,13 +4,24 @@ import fetchSpecificModel from '../Actions/SpecificModelAction'
 import '../CSS/Content.css'
 import ConditionImage from '../Images/Condition.png'
 import AvailabilityImage from '../Images/Availability.png'
+//import  { Redirect } from 'react-router-dom'
+//import { BrowserRouter as Router, Link } from 'react-router-dom'
+//import {browserHistory} from "react-router";
 
 class Content extends React.Component{
+    constructor() {
+        super();
+        this.onImageClick = this.onImageClick.bind(this);  
+    } 
 
  componentWillMount(){
     this.props.fetchSpecificModel('','');
      }
 
+     onImageClick(){
+       // browserHistory.push("https://www.ssangyong.pl/");
+      window.location.href = "https://www.ssangyong.pl/";
+     }
 
     render(){
 
@@ -38,7 +49,7 @@ class Content extends React.Component{
          <p className="vehicle-title">{params.model} <span className="vehicle-trim">{params.trim}</span></p>
          <p className="condition">{condition.toUpperCase()}</p>
          <img className="condition-image" src={ConditionImage} alt="condition" />
-         <img src={image_url} className="vehicle-image" alt="Illustration of Vulture" width="300"/>
+         <img src={image_url}  className="vehicle-image" onClick={this.onImageClick} alt="Illustration of Vulture" width="300"/>
          </div>
 
          <div className="info-section col-sm-4">
