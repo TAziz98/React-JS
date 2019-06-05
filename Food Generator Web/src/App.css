@@ -1,0 +1,13 @@
+.App {
+  background-image:url("./background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1366px 650px;
+  background-position-y: 0px;
+  display: flex; 
+  justify-content: center;
+  height: 640px;
+
+}
+
+

@@ -1,0 +1,105 @@
+.viewMore{
+   position: relative;
+   width:10cm;
+   height:15.15cm;
+   right:2.5cm;
+   top:1.8cm;
+}
+
+.viewMore img{
+   width:.6cm;
+      height:.6cm;
+   }
+   .viewMore .moreDetail{
+      position: relative;
+      width:.6cm;
+      height:.6cm;
+      margin-left:5.7cm;
+      top:-.7cm;
+   }
+
+   .viewMore .location{
+      width: 1.2cm;
+      height: 1.2cm;
+      margin-left:-.9cm;
+      margin-top:-15.2cm;
+   }
+  .dashed-line{
+   border-left: 3px dashed white;
+   height: 150px;
+   margin-top:-1.55cm;
+   width:.6cm;
+      margin-left:1.7cm;
+       transform: rotateZ(-25deg);
+       
+   }
+
+   .dashed-line-opposite{
+      border-left: 3px dashed white;
+      height: 215px;
+      margin-top:.8cm;
+      margin-left:2.78cm;
+      width:.6cm;
+          transform: rotateZ(22deg);
+          
+      }
+  .viewMore .location-text{
+     font-size: 32px;
+     font-weight: bold;
+     margin-left:-1.5cm;
+     margin-top:-7.4cm;
+     width: 5cm;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    text-shadow: 2px 2px 8px black;
+    
+    
+  }
+ .viewMore .introduction{
+   font-size: 42px;
+   width: 9.2cm;
+   font-family: 'Archivo Black', sans-serif;
+   font-weight: bold;
+   color:#2c71da;
+   margin-top:8.5cm;
+   margin-left:.31cm;
+   text-shadow: 2px 2px 8px black;
+   
+ }
+  .viewMore  .white{
+     color:white;
+     
+  }
+.parallelogram{
+  width: 240px;
+	height: 100px;
+	transform: skew(-20deg);
+   background:rgba(0,138,230,0.5);
+   margin-top:-111px;
+   margin-left:100px;
+   z-index: -1;
+   
+   
+   
+}
+.parallelogram-main-text{
+   position: absolute;
+   font-size:22px;
+   margin-top:-2.5cm;
+   margin-left:3.2cm;
+   color:white!important;
+   font-family: 'Sniglet', cursive;
+   width: 6cm;
+   z-index: 1;
+   
+}
+.parallelogram-text{
+   position: absolute; 
+   font-family: 'Sniglet', cursive;
+   font-size:18px;
+   bottom:4.6cm;
+   margin-left:5cm;
+   margin-bottom:-4.3cm;
+   width: 4cm;
+   z-index: 1;
+}

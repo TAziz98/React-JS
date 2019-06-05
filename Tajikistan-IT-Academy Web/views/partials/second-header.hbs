@@ -1,0 +1,83 @@
+
+<nav class="navbar navbar-expand-lg ">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+<section class="list-second-header">
+     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About IT Academy
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Academy at a Glance</a>
+          <a class="dropdown-item" href="#">Academy's President</a>
+          <a class="dropdown-item" href="#">Academy's Leadership</a>
+          <a class="dropdown-item" href="#">Administrative Offices</a>
+          <a class="dropdown-item" href="#">Academy in the Community</a>
+        </div>
+      </li>
+      </section>
+      <section class="list-second-header">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Admission $ Aid
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Undergraduate</a>
+          <a class="dropdown-item" href="#">Graduate & Proffesional Schools</a>
+          <a class="dropdown-item" href="#">Continuing Education</a>
+          <a class="dropdown-item" href="#">Summer Programs</a>
+        </div>
+      </li>
+      </section>
+      <section class="list-second-header">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Schools
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Engineering</a>
+          <a class="dropdown-item" href="#">Robotics</a>
+          <a class="dropdown-item" href="#">IT administration</a>
+          <a class="dropdown-item" href="#">Statistics</a>
+          <a class="dropdown-item" href="#">3D Design</a>
+        </div>
+      </li>
+      </section>
+      <section class="list-second-header">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          On Campus
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Arts and humanities</a>
+          <a class="dropdown-item" href="#">Athletics</a>
+          <a class="dropdown-item" href="#">Commencement</a>
+          <a class="dropdown-item" href="#">Visit Academy</a>
+          <a class="dropdown-item" href="#">Events</a>
+          <a class="dropdown-item" href="#">Library</a>
+          <a class="dropdown-item" href="#">Museum</a>
+        </div>
+      </li>
+      </section>
+       <section class="list-second-header">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user"></i> User Management
+        </a>
+         <ul class="dropdown-menu">
+                      {{# if login }}
+                            <li><a href="/profile">User Account</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/logout">Logout</a></li>  
+                            {{else}}      
+                          
+                            <li><a href="/user/signup">Sign Up</a></li>
+                            <li><a href="/user/signin">Sign In</a></li>
+                            
+                       {{/if}}
+                    </ul>
+      </li>
+      </section>
+    </ul>
+  </div>
+</nav>

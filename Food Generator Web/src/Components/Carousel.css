@@ -1,0 +1,15 @@
+
+#demo{
+    left: -3.2cm;
+      bottom:-9.8cm;
+      border-radius: 25px;
+   }
+   
+   .carousel{     
+    border-radius: 25px;
+      width: 400px;
+      height:230px;
+    }
+    .carousel-item , .carousel-item img{
+    border-radius: 5px;
+   }

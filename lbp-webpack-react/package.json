@@ -1,0 +1,21 @@
+{
+  "name": "lbp-webpack-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "mongoose": "^5.4.3"
+  }
+}

@@ -1,0 +1,41 @@
+
+   .nav-link {
+      font-family: 'Playfair Display', serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Cinzel', serif;
+      font-weight: bold;
+      font-size: 24px;  
+      margin-left:100px;
+      margin-top:.4cm;
+      color:black!important;
+   }
+  
+   .navbar {
+      position: relative;
+      background-color: rgba(255,255,255,0.4)!important; 
+      width:1366px;
+      height: 67px;
+      left:14.12cm;
+     }
+     .logo{
+        margin-top:-.5cm;
+        height:2cm;
+        width:3cm;
+        color:white;
+      }
+     .navbar-brand{    
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
+        font-size: 42px;
+        margin-left:70px;
+        padding-right: 170px;
+        margin-top:.3cm;
+     
+     }
+
+     @media only screen and (max-width: 1100px) {
+      .navbar {
+         left:10.56cm;
+        }
+     }

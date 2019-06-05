@@ -1,0 +1,168 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+#container-erasmus{
+  display: flex;
+}
+#harvard-text{
+  margin-left:1cm; 
+  margin-right:1cm;
+  margin-top:2cm;
+  font-size:13px;
+  color:white;
+}
+#harvard-section{
+  margin-right:-2cm;
+}
+#container-harvard{
+  display: flex;
+}
+#harvard{
+  margin-left:1cm; 
+}
+#MIT{
+  margin-left:2cm; 
+  margin-top:2cm;
+  font-size:13px;
+  color:white;
+}
+#erasmus{
+  font-size:25px;
+  color:white;
+  margin-left:3.5cm;
+}
+#add-to-profile{
+  margin-bottom: 1cm;
+  margin-left: 4cm;
+}
+#body{
+  background-color: #00001a;
+}
+div.thumbnail{
+  background-color: #b3f0ff;
+}
+
+section.ul-list{
+  margin-left: 0.8cm;
+}
+section.s{
+  margin-left:3cm;
+}
+#money{
+  margin-left:7px;
+}
+img.emblemCourse{
+  width: 6cm;
+  height:6cm;
+}
+a.btn-success{
+  margin-left:7cm;
+}
+#description{
+color: #1a1aff;
+}
+#clock{
+  margin-left:7px;
+}
+#calendar{
+  margin-left:7px;
+}
+.container .btn-danger{
+  position: absolute;
+  top: 135%;
+  left: 42%;
+}
+div.container{
+  
+  margin-left:-15px;
+}
+
+
+section.list-first-header{
+  margin-left: 1.1cm;
+}
+section.list-second-header{
+  margin-left: 2.7cm;
+}
+section.list-third-header{
+  margin-left: 1.8cm;
+}
+#sec-one-third-id{
+  margin-left: 3.7cm;
+}
+#sec-two-third-id{
+  margin-left: 5.5cm;
+}
+#sec-three-third-id{
+  margin-left: 5cm;
+}
+#search{
+  margin-left: 2.5cm;
+}
+li{
+  font-family:Palatino Linotype;
+}
+#courses-button{
+  margin-left :0.7cm;
+  
+}
+section.courses-margin{
+  margin-left: 1.5cm;
+}
+
+
+#courses-section{
+  padding: 2px 0;
+  border-style: solid;
+  border-width: 0px;
+ background-color: rgb(255, 255, 255,0.9);
+ width: 33cm;
+ height: 5cm;
+}
+
+#courses-text{
+  margin-top:2cm;
+  margin-left:5.5cm;
+  font-family:Courier New;
+  font-size: 20px;
+  color:black;
+}
+#main-text{
+  border-style: solid;
+  border-width: 0px;
+  margin-left: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 30px;
+  font-family: cursive;
+    line-height: 70px;
+    color:white;
+ background-color: rgba(0, 0, 0, 0.5);
+ position: absolute;
+ top: 110%;
+ left: 16%;
+ right:10%;
+ width: 20cm;
+
+}
+#emblem{
+  width:200px;
+  height:200px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+#main-image{
+  width: 112.5%;
+  height: 50%;
+}
+
+a {
+  color: #00B7FF;
+}
