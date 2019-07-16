@@ -1,0 +1,13 @@
+.form-control{
+width:14em;
+height: 1.9em;
+}
+
+#post{
+    position: absolute;
+    left:34em;
+    top:12em;
+}
+.btn-secondary{
+    margin-bottom: 1em;
+}

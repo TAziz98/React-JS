@@ -1,0 +1,37 @@
+.container{
+    padding-left:17em;
+
+}
+.dropdown{
+position: absolute;
+padding-left:1em;
+padding-bottom:1.2em;
+}
+
+.category-label{
+    position: absolute;
+    margin-top:6.5px;
+    left:-18px;
+}
+h5{
+    margin-right: 20px;
+
+}
+p{
+margin-right: 20px;
+}
+
+#get{
+    margin-left:12em;
+    margin-bottom:50px;
+    margin-top:15px;
+}
+
+#submit{
+    position: absolute;
+    left:50em;
+    top:4.3em;
+    height: 2em;
+    padding-bottom:1.6em;
+    justify-content: center;
+}
