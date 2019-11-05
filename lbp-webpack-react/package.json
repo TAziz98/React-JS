@@ -16,6 +16,6 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "mongoose": "^5.4.3"
+    "mongoose": "^5.7.5"
   }
 }
